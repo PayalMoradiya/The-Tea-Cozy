@@ -4,16 +4,17 @@ body {
     font-size: 22px;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png);
     background-repeat: no-repeat;
-    
-}
+    }
+
 header{
    height: 69px;
    border-bottom: 1px solid seashell;
-
 }
+
 nav {
    list-style: none;
 }
+
 nav li {
    float:right;
    padding: 10px;
@@ -23,6 +24,7 @@ nav li {
 nav li a {
    color:seashell;
 }
+
 .back-image{
    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
    width: 1200px;
@@ -32,6 +34,7 @@ nav li a {
    padding-top: 0;
 
 }
+
 .back-text{
    text-align: center;
    color: seashell;
@@ -43,18 +46,20 @@ nav li a {
    transform: translate(-70%, -70%);
    width: 100%;
    vertical-align: center;
-   
-}
+   }
+
 #center{
    text-align: center;
    color: seashell;
    padding: 10px;
 }
+
 .tea{
    width:300px;
    height:200px;
 
 }
+
 .type{
    display:inline-flex;
    flex-wrap: wrap;
@@ -63,10 +68,12 @@ nav li a {
    margin-right: auto;
 
 }
+
 .type2{
    align-items: center;
    display:inline-flex;
 }
+
 .textf{
    background-color: black;
    color: seashell;
@@ -76,10 +83,8 @@ nav li a {
    top: 35%;
    left: 0%;
    transform: translate(35%, 0%);
-
-
-
 }
+
 .textm{
    background-color: black;
    color: seashell;
@@ -89,8 +94,8 @@ nav li a {
    top: 50%;
    left: 65%;
    transform: translate(50%, 0%);
-  
-}
+  }
+
 .textl{
    background-color: black;
    color: seashell;
@@ -102,7 +107,6 @@ nav li a {
    transform: translate(65%, 0%);
 }
 
-
 .background{
    height: 575px;
    width: 1200px;
@@ -110,23 +114,24 @@ nav li a {
    margin-right: auto;
    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
    overflow:hidden;
-
 }
+
 .block{
    display: inline-flex;
-
-
 }
+
 .lcn{
    text-align: center;
    padding-top: 80px;
    color: seashell;
    font-weight:bolder;
 }
+
 .contact{
   text-align: center;
   color: seashell; 
 }
+
 .copy{
    text-align: left;
    color: seashell;
