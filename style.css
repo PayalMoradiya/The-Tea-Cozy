@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    font-family:Helvetica, sans-serif;
+    font-size: 22px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png);
+    background-repeat: no-repeat;
+    
+}
+header{
+   height: 69px;
+   border-bottom: 1px solid seashell;
+
+}
+nav {
+   list-style: none;
+}
+nav li {
+   float:right;
+   padding: 10px;
+   margin:auto;
+}
+
+nav li a {
+   color:seashell;
+}
+.back-image{
+   background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+   width: 1200px;
+   height: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 0;
+
+}
+.back-text{
+   text-align: center;
+   color: seashell;
+   background-color: black;
+   text-decoration: bold;
+   position: absolute;
+   top: 70%;
+   left: 70%;
+   transform: translate(-70%, -70%);
+   width: 100%;
+   vertical-align: center;
+   
+}
+#center{
+   text-align: center;
+   color: seashell;
+   padding: 10px;
+}
+.tea{
+   width:300px;
+   height:200px;
+
+}
+.type{
+   display:inline-flex;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+.type2{
+   align-items: center;
+   display:inline-flex;
+}
+.textf{
+   background-color: black;
+   color: seashell;
+   width: 300px;
+   opacity: 1;
+   text-align:center;
+   top: 35%;
+   left: 0%;
+   transform: translate(35%, 0%);
+
+
+
+}
+.textm{
+   background-color: black;
+   color: seashell;
+   width: 300px;
+   opacity: 1;
+   text-align:center;
+   top: 50%;
+   left: 65%;
+   transform: translate(50%, 0%);
+  
+}
+.textl{
+   background-color: black;
+   color: seashell;
+   width: 300px;
+   opacity: 1;
+   text-align:center;
+   top: 65%;
+   left: 65%;
+   transform: translate(65%, 0%);
+}
+
+
+.background{
+   height: 575px;
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+   overflow:hidden;
+
+}
+.block{
+   display: inline-flex;
+
+
+}
+.lcn{
+   text-align: center;
+   padding-top: 80px;
+   color: seashell;
+   font-weight:bolder;
+}
+.contact{
+  text-align: center;
+  color: seashell; 
+}
+.copy{
+   text-align: left;
+   color: seashell;
+   padding-left: 20px;
+}
